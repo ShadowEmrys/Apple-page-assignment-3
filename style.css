@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+
+  header {
+    background-color: #141414;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 40px; /* Adjust the height as needed */
+    text-align: center;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  nav a:hover {
+    color: #999;
+  }
+
+  .logo img {
+    width: 24px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+
+  
+
