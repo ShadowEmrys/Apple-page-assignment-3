@@ -1,6 +1,10 @@
 body {
     margin: 0;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    /* font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; */
+    height: 100vh;
+    margin: 0;
+    font-family: 'San Francisco', 'Helvetica Neue', Arial, sans-serif;
+    background-color: white;
   }
 
   header {
@@ -28,14 +32,69 @@ body {
   }
 
   nav a:hover {
-    color: #999;
+    color: white;
   }
 
   .logo img {
     width: 24px; /* Adjust the width as needed */
     height: auto; /* Maintain aspect ratio */
   }
+  .bodylogo {
+    text-align:center;
+  }
+  .bodylogo img {
+    width: 40px;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    padding-top:30px;
+  }
+  .iphoneheader {
+    text-align:center;
+    text-decoration: none; /* Remove underline from the link */
+  }
+  .iphoneheader p a {
+    color: #0077cc;
+    text-decoration: none;
+  }
+  .iphoneheader img{
+    width: 400px;
+  }
+  .black-box {
+    background-color: #000; /* Black background color */
+    color: #fff; /* White text color */
+    width: 100%;
+    padding: 20px; /* Adjust the padding as needed */
+    box-sizing: border-box;
+    text-align: center;
+}
 
+/* Optional: Style for text inside the black box */
+.black-box p {
+    font-size: 24px;
+    margin: 0;
+}
 
+/* Optional: Style for images inside the black box */
+.black-box img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px; /* Adjust the margin as needed */
+}
+
+.black-box p{
+    font-size:16px;
+    color:whitesmoke;
+    padding-bottom: 5px;
+}
+.black-box p:nth-of-type(2) {
+    font-size: 11px; /* Your desired font size */
+}
+/* Style for the link inside the black box */
+.black-box p a {
+    color: #0077cc; /* Adjust the color to your desired shade of blue */
+    text-decoration: none; /* Remove underline from the link */
+}
+  
   
 
